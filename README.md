@@ -1,6 +1,6 @@
 # RTL Fix for AI Chat Interfaces
 
-🚀 Automatically fixes RTL (Right-to-Left) text issues in modern AI chat platforms like ChatGPT, Claude, Gemini, Copilot, and more.
+🚀 Automatically fixes RTL (Right-to-Left) text issues in modern AI chat platforms.
 
 ---
 
@@ -19,7 +19,7 @@ This extension intelligently detects RTL text and fixes layout, alignment, and d
 * ✍️ Auto-adjusts input fields while typing
 * 🎯 Works only on supported AI chat websites
 * 🎛 Toggle button (RTL ON / OFF)
-* 🪶 Lightweight and fast (no performance issues)
+* 🪶 Lightweight and fast
 
 ---
 
@@ -79,7 +79,7 @@ Most AI chat interfaces are optimized for English (LTR), which causes:
 * Incorrect alignment
 * Hard-to-read conversations
 
-This extension fixes all of that — instantly.
+This extension fixes these issues on supported platforms.
 
 ---
 
@@ -96,9 +96,9 @@ This extension fixes all of that — instantly.
 ## 🚧 Future Plans
 
 * Chrome Web Store release
-* More site support
+* Add support for more AI platforms
 * Performance optimizations
-* Custom settings panel
+* Optional settings panel
 
 ---
 
