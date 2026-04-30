@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "AI Chat RTL Support",
+  "version": "1.4.9",
+  "description": "Automatic RTL support for Persian and Arabic text in AI chat interfaces",
+  "permissions": ["storage"],
+  "icons": {
+    "16": "assets/icons/icon16.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://claude.ai/*",
+        "https://chat.deepseek.com/*",
+        "https://www.deepseek.com/*",
+        "https://gemini.google.com/*",
+        "https://copilot.microsoft.com/*",
+        "https://poe.com/*",
+        "https://duck.ai/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
